@@ -1,0 +1,28 @@
+﻿@model Funcionario
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Novo Funcionário";
+}
+
+<section class="form_section">
+    <h2 id="h2_edited" class="display-4">Novo Funcionário</h2>
+    <form asp-action="Adicionar" method="post">
+        <div class="form-group">
+            <!-- Com o asp-for, você especifica o atributo do Model -->
+            <label asp-for="Nome">Nome: </label>
+            <input asp-for="Nome" class="form-control form-control-lg" />
+        </div>
+        <div class="form-group">
+            <label asp-for="DataNascimento">Data de Nascimento: </label>
+            <input asp-for="DataNascimento" class="form-control form-control-lg" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Salario">Salário: </label>
+            <input asp-for="Salario" class="form-control form-control-lg" />
+        </div>
+
+        <div class="form-group" >
+            <button type="submit" class="btn btn-primary btn-lg" >Salvar</button>
+        </div>
+    </form>
+</section>

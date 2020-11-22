@@ -1,0 +1,20 @@
+[
+  {
+    "id": "b4ac4a66-2729-4d9a-b0b7-dab5f3e92052",
+    "nome": "Ellison",
+    "dataNascimento": "1998-01-17T00:00:00",
+    "salario": 5892.0
+  },
+  {
+    "id": "402cdcb3-07a8-46d5-94cf-c1e63bb286b2",
+    "nome": "Rebeca",
+    "dataNascimento": "1998-05-07T00:00:00",
+    "salario": 8941.0
+  },
+  {
+    "id": "eb18fa33-309f-4a3e-b3cd-8d2e1ad259c4",
+    "nome": "Rose",
+    "dataNascimento": "1972-09-13T00:00:00",
+    "salario": 6891.0
+  }
+]
