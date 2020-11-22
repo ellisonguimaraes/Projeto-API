@@ -90,8 +90,8 @@ Neste projeto, há os seguintes métodos de requisição HTTP de acesso:
 
 O projeto de API é encontrado no diretório `ConsumindoAPI/ConsumindoAPI`. Nesse projeto, não foi setado `IP/PORT` fixo. Para isso, é necessário ver a posta disponível ao executar o comando `dotnet build && dotnet run`.
 
-![image-20201121215244348](images_markdown\image-20201121215158502.png)
+![image-20201121215244348](/images_markdown\image-20201121215158502.png)
 
 Ao acessar o link, será exibido uma página de CRUD na qual foram utilizados `HTML`, `CSS` e `BOOSTRAP` e as *TagsHelpers* do `ASP.NET CORE`.
 
-![image-20201121215434433](images_markdown\image-20201121215434433.png)
+![image-20201121215434433](./images_markdown\image-20201121215434433.png)
